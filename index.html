@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-top"></div>
+            <div class="header-middle">
+                <div class="logo"></div>
+                <div class="menu-icon">
+                    <i class="fas fa-bars" onclick="toggleMenu()"></i>
+
+                </div>
+
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a id="btn-scroll-top-home">Home page</a>
+                        </li>
+                        <li>
+                            <a id="btn-about" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a id="btn-projects" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a id="btn-contact" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="effect-banner-top-left">
+            <img src="./images/effect1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="banner-content row">
+                <div class="banner-content-left col-5">
+                    <h1>Lư Nhật Trường</h1>
+                    <div class="typewriter mt-2">
+                        <h3>Development.</h3>
+                    </div>
+                    <!-- <div class="text-custom">Development</div> -->
+                    <!-- <a class="btn" href="#">View more</a> -->
+                </div>
+                <div class="banner-content-right col-7">
+                    <img src="./images/avt00.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about" id="about">
+
+        <div class="container ">
+            <h3 class="">About Me</h3>
+            <div class="row about-content">
+                <div class="col-6 about-content-img">
+                    <img src="./images/about00.jpg" alt="" style="scale: 1.2;">
+                </div>
+                <div class="col-6 p1">
+
+                    <div class="description">
+                        <p>
+                            I'm Nhat Truong, a passionate and innovative Website Design enthusiast. Currently enrolled as
+                            a 3nd year IT student, I thrive on bringing creative visions to life through thoughtful
+                            and user-centric designs. Proficient in HTML, CSS, and JavaScript, I enjoy crafting visually
+                            appealing and seamlessly functional websites.
+                        </p>
+                        <p class="mt-1">
+                            My journey involves hands-on experience in UI/UX design and optimizing web performance for
+                            optimal user interaction. Each project I undertake is a testament to my commitment to
+                            staying current with industry trends and delivering modern, captivating digital experiences.
+                        </p>
+                    </div>
+
+                    <a class="btn" href="#">Read more</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-projects projects" id="projects">
+        <div class="container ">
+            <h3>My projects</h3>
+
+            <div class="my-project-items mt-3 row">
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Email List</span>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/EmailList"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Murach Survey</span>
+                    
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/MurachSurvey"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 5-1</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/EmailListServletModification"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 5-2</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/ServletCreation/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 6-1</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/EmailListJspModification/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 6-2</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/JSPCreation/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 8</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/EmailListAppModification/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 9-1</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/JSTLUse/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Exercise 9-2</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/JSTLCartApp/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>SQL Gateway</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/SQLGateway/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>SQL Connection Pool</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/SQLConnectionPool/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Java Persistence API</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/JavePersistenceAPI/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="my-project-item">
+                        <div class="row">
+                            <div class="image">
+                                <img src="./images/project30.png" alt="">
+                            </div>
+                            <div class="content">
+                                <span>Java Mail</span>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <a target="_blank" href="https://baostar.azurewebsites.net/JSPEmail/"
+                                class="btn view-source-btn">Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contact" id="contact">
+        <!-- <div class="effect2">
+            <img src="./images/el1.png" alt="" style="top: -2em">
+        </div> -->
+        <div class="container">
+            <h3>Contact</h3>
+
+            <div class="row contact-box">
+
+                <div class="col-6 contact-content">
+                    <h4>Let's Work Together.</h4>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Address:
+                        </div>
+                        <div class="value">
+                            <span>Ho Chi Minh City University of Technology and Education</span>
+                        </div>
+
+                    </div>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Phone number:
+                        </div>
+                        <div class="value">
+                            <span>096.123.456</span>
+                        </div>
+
+                    </div>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Email:
+                        </div>
+                        <div class="value">
+                            <span>nhattruong2004@gmail.com</span>
+                        </div>
+
+                    </div>
+                    <div class="btn-group">
+                        <div class="title">Follow me:</div>
+                        <div class="btns">
+                            <div class="btn-link">
+                                <a class="fa-brands fa-facebook"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-github"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-youtube"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-linkedin"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 contact-form">
+                    <span> I'm eager to hear from you! Feel free to share your thoughts, questions, or ongoing projects.
+                        I'm ready to collaborate and contribute to your success. Don't hesitate to reach out; I'm always
+                        here to listen and support. Fill out the form below or send an email directly. Thank you for
+                        visiting, and I'll get back to you as soon as possible!</span>
+
+
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <input id="name" type="text" placeholder="Your name...">
+                        </div>
+                        <div class="col-6">
+                            <input id="email" type="text" placeholder="Your email...">
+                        </div>
+                    </div>
+                    <div style="padding:10px 5px;">
+                        <input id="title" type="text" placeholder="Title...">
+                    </div>
+                    <div style="padding:10px 5px;">
+                        <textarea id="content" placeholder="Content..."></textarea>
+                    </div>
+
+                    <div class="btn" style="margin-left: 5px;" onclick="submitForm()">Submit</div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <span>Lu Nhat Truong - Ho Chi Minh City University of Technology and Education</span>
+    </footer>
+
+
+    <button id="scroll-top-btn">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- import script -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script src="./js.js"></script>
+
+    <script>
+        function submitForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const title = document.getElementById('title').value;
+            const content = document.getElementById('content').value;
+
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`Name: ${name}%0D%0AContent: ${content}`)}`;
+
+            // Mở ứng dụng email
+            window.location.href = mailtoLink;
+        }
+
+
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+
+        const mybutton = document.getElementById("scroll-top-btn");
+        const scrollTop2 = document.getElementById("btn-scroll-top-2");
+        const header = document.getElementById("header");
+        const sections = document.querySelectorAll('section');
+        const threshold = 100; // Khoảng cách từ đầu trang để hiển thị thanh header
+        let isHeaderVisible = false;
+
+        window.onscroll = function () {
+            // Logic cho nút scroll top
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+
+            // Logic cho hiển thị header
+            const currentScrollPos = window.scrollY || document.documentElement.scrollTop;
+            if (currentScrollPos > threshold && !isHeaderVisible) {
+                header.style.top = "0";
+                isHeaderVisible = true;
+            } else if (currentScrollPos <= threshold && isHeaderVisible) {
+                header.style.top = "-60px";
+                isHeaderVisible = false;
+            }
+
+            // Logic cho hiển thị phần tử khi scroll
+            let top = currentScrollPos;
+            let windowHeight = window.innerHeight; // Chiều dài của trang
+            let offset = (1 / 2) * windowHeight;
+
+            sections.forEach(sec => {
+                let secOffset = sec.offsetTop - offset;
+                let secHeight = sec.offsetHeight;
+
+                if (top >= secOffset && top < secOffset + secHeight) {
+                    sec.classList.add('show-animate');
+                } else {
+                    // sec.classList.remove('show-animate');
+                }
+            });
+        };
+
+        mybutton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        $(window).scroll(function () {
+            console.log("scroll");
+
+            if ($(window).scrollTop()) {
+                $("header").addClass("bg-secondary")
+            } else {
+                $("header").removeClass("bg-secondary")
+            }
+        })
+
+
+        // Lặp qua tất cả các nút và thêm sự kiện click
+        document.querySelectorAll('ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Lấy id của phần tử mục tiêu từ href
+                const targetId = this.getAttribute('href').substring(1);
+
+                // Lấy phần tử mục tiêu
+                const targetElement = document.getElementById(targetId);
+
+                // Cuộn đến phần tử mục tiêu
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>
